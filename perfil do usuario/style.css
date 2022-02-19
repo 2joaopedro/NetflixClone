@@ -17,25 +17,21 @@ body {
 .logo img {
   margin: 40px;
   margin-top: -10px;
-  width: 74px;
-  height: 74px;
+  width: 80px;
+  height: 80px;
 }
 .text {
   color: white;
-  font-size: 25px;
+  font-size: 35px;
+  margin-top: 100px;
 }
 .btn-login {
-  gap: 25px;
-  width: 10%;
+  width: 15%;
   height: 100%;
-  padding: 15px 0px;
-  margin-top: -10px;
-  margin: 5px;
   border: none;
   text-transform: uppercase;
   outline: none;
-  font-weight: 60;
-  letter-spacing: 2px;
+  font-weight: 60px;
   color: rgb(136, 133, 133);
   background: transparent;
   cursor: pointer;
@@ -46,6 +42,7 @@ body {
   height: 80%;
   background-color: brown;
   transition: 0.5s;
+  margin-top: 30px;
 }
 .btn-login img:hover {
   -webkit-box-shadow: 6px -1px 48px -10px rgba(66, 66, 66);
@@ -57,18 +54,21 @@ body {
   justify-content: center;
 }
 .btn-gerenciador {
-  width: 13%;
-  padding: 16px 16px; /*Interno*/
-  margin: 100px; /*Externa*/
+  width: 15%;
+  padding: 20px 20px; /*Interno*/
+  margin: 400px; /*Externa*/
   border: none;
   text-transform: uppercase;
   border-radius: 40px;
   outline: none;
   font-weight: 60;
-  letter-spacing: 2px;
   color: rgb(255, 255, 255);
   background: red;
   cursor: pointer;
+}
+.btn-gerenciador {
+  margin: 20px;
+  margin-top: 250px;
 }
 .btn-gerenciador:hover {
   -webkit-box-shadow: 6px -1px 48px -10px rgba(66, 66, 66);

@@ -57,7 +57,7 @@ img {
 }
 .card-login {
   color: white;
-  font-weight: 800;
+  font-weight: 900;
   margin: 0;
 }
 .textfield {
@@ -93,9 +93,7 @@ img {
   text-transform: uppercase;
   border-radius: 40px;
   outline: none;
-  font-weight: 12;
   padding: 15px;
-  letter-spacing: 2px;
   color: rgb(255, 255, 255);
   background: red;
   cursor: pointer;
